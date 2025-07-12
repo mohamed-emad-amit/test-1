@@ -1,0 +1,35 @@
+.product-card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 20px;
+  .image-container {
+    img {
+      display: block;
+      margin: auto;
+      width: 100%;
+    }
+  }
+
+  .text-container {
+    text-transform: capitalize;
+    h2 {
+      margin-bottom: 5px;
+    }
+    p {
+      margin-bottom: 5px;
+    }
+    h3 {
+      span {
+        color: blueviolet;
+      }
+    }
+  }
+
+  a {
+    margin-top: 10px;
+    display: block;
+    button {
+      width: 100%;
+    }
+  }
+}
